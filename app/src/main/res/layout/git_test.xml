@@ -16,41 +16,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="157dp" />
-
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="458dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="205dp"
-        android:layout_height="108dp"
-        android:src="@drawable/mountain_image"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="564dp"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="247dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
