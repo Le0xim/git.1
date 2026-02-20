@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LevenecGit">
         <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".GitTest"
             android:exported="true">
             <intent-filter>

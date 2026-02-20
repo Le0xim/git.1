@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LevenecGit</string>
     <string name="Image">RussianFlag</string>
+    <string name="checkbox">CheckBox</string>
 </resources>
