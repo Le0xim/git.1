@@ -33,4 +33,12 @@
         tools:layout_editor_absoluteY="458dp"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="108dp"
+        android:src="@drawable/mountain_image"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="564dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
