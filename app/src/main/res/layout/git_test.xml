@@ -9,9 +9,19 @@
     tools:ignore="VisualLintBounds">
 
     <SearchView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
+        android:layout_width="166dp"
+        android:layout_height="426dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/IMAGE2"
+        android:src="@drawable/cinema_image"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="490dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
